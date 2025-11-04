@@ -1,0 +1,98 @@
+@mixin media ($size) {
+    @media (max-width:$size) {
+        @content;
+    }
+}
+
+.project1 {
+    background-image: url("/Bodybg.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    // style={{
+    // display: "flex",
+    min-height: 1600px;
+    height: "100%";
+
+    .project2 {
+        max-width: 1400px;
+        width: 100%;
+        padding: 20px;
+        margin: 0 auto;
+
+        .project {
+            max-width: 550px;
+            width: 100%;
+            height: 400px;
+            margin-top: 30px;
+
+            @include media(580px) {
+                // margin-top: 12px;
+                height: 350px;
+            }
+
+            .project-top {
+                width: 100%;
+                height: 300px;
+                cursor: pointer;
+                position: relative;
+
+                .project-top-child2 {
+                    display: none;
+                    position: absolute;
+                }
+
+                @include media(580px) {
+                    // margin-top: 12px;
+                    height: 280px;
+                }
+
+                @include media(530px) {
+                    // margin-top: 12px;
+                    height: 250px;
+                }
+
+                @include media(440px) {
+                    // margin-top: 12px;
+                    height: 208px;
+                }
+
+            }
+
+            .middle {
+                @include media(520px) {
+                    margin-top: 10px;
+                }
+            }
+
+            .tags {
+                margin-top: 12px
+            }
+
+            ;
+        }
+
+        .project:hover {
+            .project-top-child2 {
+                display: block;
+                display: flex;
+                gap: 10px;
+                top: 10px;
+                right: 10px;
+            }
+
+            .project-top-child1 {
+                opacity: 30%;
+            }
+
+            .tags {
+                // visibility: hidden;
+                opacity: 10% !important;
+            }
+        }
+    }
+
+}

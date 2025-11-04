@@ -1,0 +1,30 @@
+.haqida {
+    .about1 {
+        /* style={{ */
+        background-image: url("/Bodybg.svg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        // style={{
+        // display: "flex",
+        min-height: 1660px;
+        height: "100%";
+        //   }}
+
+        .about2 {
+            max-width: 1400px;
+            width: 100%;
+            padding: 20px;
+            // border: 1px solid white;
+            margin: 0 auto;
+
+            // .img1 {
+            //     margin-top: 60px;
+            //     margin-left: 40px
+            // }
+        }
+    }
+}

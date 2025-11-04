@@ -1,0 +1,118 @@
+// .sidebar{
+
+@mixin media ($size) {
+    @media (max-width:$size) {
+        @content;
+    }
+}
+
+.sidebar {
+    width: 25%;
+    height: 100%;
+    background-color: black;
+    margin-left: -387px;
+    // position: absolute;
+    // border-right: 1px solid;
+    transition: all ease-in-out 500ms;
+
+    @include media(825px) {
+        left: -387px;
+    }
+
+    @include media(600px) {
+        left: -387px;
+
+    }
+}
+
+.sidebar2 {
+    width: 24%;
+    height: 100%;
+    background-color: black;
+    // margin-left: -400px;
+    // position: absolute;
+    border: 1px solid white;
+    // padding: 0 30px 0 30px;
+    transition: all ease-in-out 1000ms;
+
+    @include media(1200px) {
+        width: 30%;
+        height: 100%;
+        // position: absolute;
+    }
+    @include media(1015px) {
+        width: 40%;
+        height: 100%;
+        // position: absolute;
+    }
+
+    @include media(825px) {
+        width: 40%;
+        height: 100%;
+        position: absolute;
+        z-index: 2;
+
+    }
+
+    @include media(600px) {
+        width: 60%;
+        height: 100%;
+        position: absolute;
+        z-index: 2;
+    }
+
+}
+
+.pastgi {
+    // style={{
+    width: 100%;
+    padding: 10px 25px 15px 25px;
+    height: 300px;
+    margin-top: 10px;
+    border-bottom: 1px solid white;
+    border-top: 1px solid white;
+    background-color: black;
+
+    @include media(600px) {
+        padding: 5px 8px 10px 8px;
+    }
+
+    // padding: 5px;
+    .li {
+        gap: 10px;
+
+        @include media(600px) {
+            // padding:  5px 15px 10px 15px;
+            gap: 5px;
+        }
+
+        img {
+            @include media(500px) {
+                // padding:  5px 15px 10px 15px;
+                // gap: 5px;
+                width: 35px;
+            }
+        }
+        h5{
+            font-size: 8px;
+        }
+    }
+
+    //   }}
+}
+
+// .sidebar-inside {
+//     width: 100%;
+//     padding: 20px;
+//     height: 480px;
+
+//     @include media(1200px) {
+//         height: 400px;
+//     }
+
+//     @include media(960px) {
+//         height: 370px;
+//     }
+// }
+
+// }
