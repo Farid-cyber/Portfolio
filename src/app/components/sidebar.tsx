@@ -117,8 +117,9 @@ export default function Sidebar({ visibility }: InitialProps) {
                   color: "rgba(255, 255, 255, 0.7)",
                   marginTop: "5px",
                 }}
+                href="https://github.com/Farid-cyber"
               >
-                github.com/yaxyobekuz
+                https://github.com/Farid-cyber
               </a>
             </div>
           </div>
