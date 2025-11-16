@@ -39,7 +39,9 @@ export default function Contact() {
     <div>
       <Header handleToggle={handleToggle} />
       <div className="contact">
-        <Sidebar visibility={visibility} />
+        <div>
+          <Sidebar visibility={visibility} />
+        </div>
         <div className="w-100">
           <div className="contact2">
             <Image

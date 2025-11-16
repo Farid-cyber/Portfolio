@@ -17,18 +17,21 @@
 
     @include media(825px) {
         left: -387px;
+        position: absolute;
     }
 
     @include media(600px) {
         left: -387px;
+        position: absolute;
 
     }
 }
 
 .sidebar2 {
-    width: 24%;
+    width: 100%;
     height: 100%;
     background-color: black;
+    border: 1px solid white;
     // margin-left: -400px;
     // position: absolute;
     border: 1px solid white;

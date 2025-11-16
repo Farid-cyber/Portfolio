@@ -10,6 +10,7 @@ type InitialProps = {
 import "./header.scss";
 import Dropdown from "react-bootstrap/Dropdown";
 import Image from "next/image";
+import { redirect } from "next/navigation";
 export default function Header({ handleToggle }: InitialProps) {
   // const route = useRouter();
 
@@ -101,19 +102,23 @@ export default function Header({ handleToggle }: InitialProps) {
               </li>
             </Link>
           </ul>
-          <Image
-            src="/github.svg"
-            alt=""
-            width={50}
-            height={50}
-            style={{
-              marginLeft: "20px",
-              // marginBottom: "90px",
-              marginTop: "-12px",
-              // width: "90px",
-              height: "50px",
-            }}
-          />
+          <Link href={"https://github.com/Farid-cyber"}>
+            {/* <a onClick={() => redirect("")}> */}
+              <Image
+                src="/github.svg"
+                alt=""
+                width={50}
+                height={50}
+                style={{
+                  marginLeft: "20px",
+                  // marginBottom: "90px",
+                  marginTop: "-12px",
+                  // width: "90px",
+                  height: "50px",
+                }}
+              />
+            {/* </a> */}
+          </Link>
         </div>
       </div>
     </div>

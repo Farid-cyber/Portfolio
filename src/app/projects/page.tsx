@@ -25,10 +25,14 @@ export default function Projects() {
     <div className="projects">
       <Header handleToggle={handleToggle} />
       <div className="project1">
-        <Sidebar visibility={visibility} />
+        <div>
+          <Sidebar visibility={visibility} />
+        </div>
         <div className="w-100">
           <div className="project2">
-            <Image width={200} height={100}
+            <Image
+              width={200}
+              height={100}
               src="/title wrapper (3).svg"
               alt=""
               style={{ marginTop: "60px" }}
@@ -151,7 +155,9 @@ export default function Projects() {
             >
               <div className="project">
                 <div className="project-top">
-                  <Image width={80} height={80}
+                  <Image
+                    width={80}
+                    height={80}
                     className="project-top-child1"
                     style={{ width: "100%" }}
                     src="/image 1.svg"
@@ -163,12 +169,26 @@ export default function Projects() {
                     <Image width={35} height={80} src="/Frame 36.svg" alt="" />
                   </div>
                 </div>
-                <Image width={500} height={80} className="middle" src="/Frame 26.svg" alt="" />
-                <Image width={500} height={80}  className="tags" src="/tags.svg" alt="" />
+                <Image
+                  width={500}
+                  height={80}
+                  className="middle"
+                  src="/Frame 26.svg"
+                  alt=""
+                />
+                <Image
+                  width={500}
+                  height={80}
+                  className="tags"
+                  src="/tags.svg"
+                  alt=""
+                />
               </div>
               <div className="project">
                 <div className="project-top">
-                  <Image width={80} height={80}
+                  <Image
+                    width={80}
+                    height={80}
                     className="project-top-child1"
                     style={{ width: "100%" }}
                     src="/image 1.svg"
@@ -180,12 +200,26 @@ export default function Projects() {
                     <Image width={35} height={80} src="/Frame 36.svg" alt="" />
                   </div>
                 </div>
-                <Image width={500} height={80}  className="mt-3" src="/Frame 26.svg" alt="" />
-                <Image width={500} height={80}  className="tags" src="/tags.svg" alt="" />
+                <Image
+                  width={500}
+                  height={80}
+                  className="mt-3"
+                  src="/Frame 26.svg"
+                  alt=""
+                />
+                <Image
+                  width={500}
+                  height={80}
+                  className="tags"
+                  src="/tags.svg"
+                  alt=""
+                />
               </div>
               <div className="project">
                 <div className="project-top">
-                  <Image width={80} height={80}
+                  <Image
+                    width={80}
+                    height={80}
                     className="project-top-child1"
                     style={{ width: "100%" }}
                     src="/image 1.svg"
@@ -197,13 +231,27 @@ export default function Projects() {
                     <Image width={35} height={80} src="/Frame 36.svg" alt="" />
                   </div>
                 </div>
-                <Image width={500} height={80}  className="mt-3" src="/Frame 26.svg" alt="" />
-                <Image width={500} height={80}  className="tags" src="/tags.svg" alt="" />
+                <Image
+                  width={500}
+                  height={80}
+                  className="mt-3"
+                  src="/Frame 26.svg"
+                  alt=""
+                />
+                <Image
+                  width={500}
+                  height={80}
+                  className="tags"
+                  src="/tags.svg"
+                  alt=""
+                />
               </div>
             </div>
             <div className="mx-auto">
               <a href="https://t.me/fariduser_03">
-                <Image width={500} height={80} 
+                <Image
+                  width={500}
+                  height={80}
                   style={{ width: "95%", marginTop: "64px" }}
                   src="/tg.svg"
                   alt=""

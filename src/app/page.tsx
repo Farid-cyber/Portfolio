@@ -24,11 +24,14 @@ export default function Home() {
       setVisibility(true);
     }
   };
+
   return (
     <div>
       <Header handleToggle={handleToggle} />
       <div className="about" style={{ height: "860px" }}>
-        <Sidebar visibility={visibility} />
+        <div>
+          <Sidebar visibility={visibility} />
+        </div>
         <div className="life">
           <div className="w-100">
             <div
