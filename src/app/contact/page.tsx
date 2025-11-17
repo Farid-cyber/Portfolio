@@ -38,7 +38,7 @@ export default function Contact() {
   return (
     <div>
       <Header handleToggle={handleToggle} />
-      <div className="contact">
+      <div className="contact flex relative ">
         <div>
           <Sidebar visibility={visibility} />
         </div>
