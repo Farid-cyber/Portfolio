@@ -1,0 +1,36 @@
+.contact {
+  background-image: url("/Bodybg.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  height: "100%";
+}
+@media (max-width: 510px) {
+  .contact {
+    min-height: 1400px;
+  }
+}
+.contact .contact2 {
+  max-width: 1400px;
+  width: 100%;
+  padding: 20px;
+  margin: 0 auto;
+}
+.contact .contact2 .last-child {
+  width: 100%;
+  height: 224px;
+  margin-top: 20px;
+}
+@media (max-width: 1400px) {
+  .contact .contact2 .last-child {
+    margin-top: 120px;
+  }
+}
+@media (max-width: 510px) {
+  .contact .contact2 .last-child {
+    margin-top: 120px;
+  }
+}/*# sourceMappingURL=contact.css.map */

@@ -24,8 +24,8 @@ export default function Projects() {
   return (
     <div className="projects">
       <Header handleToggle={handleToggle} />
-      <div className="project1 relative flex w-full">
-        <div className="h-full">
+      <div className="project1 relative flex">
+        <div className="">
           <Sidebar visibility={visibility} />
         </div>
         <div className="w-100">

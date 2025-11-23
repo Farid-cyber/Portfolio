@@ -13,7 +13,7 @@
     margin-left: -387px;
     // position: absolute;
     // border-right: 1px solid;
-    transition: all ease-in-out 500ms;
+    transition: all ease-in-out 1000ms;
 
     @include media(825px) {
         left: -387px;
@@ -39,12 +39,12 @@
     transition: all ease-in-out 1000ms;
 
     @include media(1200px) {
-        width: 30%;
+        width: 105%;
         height: 100%;
         // position: absolute;
     }
     @include media(1015px) {
-        width: 40%;
+        width: 105%;
         height: 100%;
         // position: absolute;
     }
@@ -75,6 +75,10 @@
     border-bottom: 1px solid white;
     border-top: 1px solid white;
     background-color: black;
+
+    @include media(1015px) {
+        padding: 10px 15px 15px 15px;
+    }
 
     @include media(600px) {
         padding: 5px 8px 10px 8px;
