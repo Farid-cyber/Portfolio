@@ -8,13 +8,16 @@
 .about {
     /* style={{ */
     background-image: url("/Bodybg.svg");
-    background-size: cover;
+    background-size: cover!important;
     background-repeat: no-repeat;
     background-position: center;
     width: 100%;
     display: flex;
-    height: 100%;
+    // min-height: 100vh;
     justify-content: space-between;
+    // border: 1px solid black;
+    padding: 0;
+
 
 
     .life {
@@ -23,7 +26,6 @@
         height: 100%;
 
         /* position:fixed; */
-        // border: 1px solid white;
         div {
             display: flex;
             flex-direction: column;
