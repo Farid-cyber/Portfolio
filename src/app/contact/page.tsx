@@ -105,7 +105,7 @@ export default function Contact() {
                 >
                   <a
                     href="
-                faridroziqov68@gmail.com"
+                mailto:faridroziqov68@gmail.com"
                   >
                     faridroziqov68@gmail.com
                   </a>
