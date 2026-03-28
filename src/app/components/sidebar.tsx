@@ -82,7 +82,7 @@ export default function Sidebar({ visibility }: InitialProps) {
               }}
               className="cursor-pointer"
             >
-              <a href="emailto:faridroziqov68@gmail.com">
+              <a href="mailto:faridroziqov68@gmail.com">
                 faridroziqov68@gmail.com
               </a>
             </h5>
