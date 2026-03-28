@@ -160,22 +160,26 @@ export default function Projects() {
                     height={80}
                     className="project-top-child1"
                     style={{ width: "100%" }}
-                    src="/image 1.svg"
+                    src="/picnic-uz.jpg"
                     alt=""
                   />
                   <div className="cursor-pointer  project-top-child2">
-                    <Image width={35} height={80} src="/Frame 34.svg" alt="" />
-                    <Image width={35} height={80} src="/Frame 35.svg" alt="" />
+                    <a href="https://picnic-uz-2a3b.vercel.app/">
+                      <Image width={35} height={80} src="/Frame 34.svg" alt="" />
+                    </a>
+                    <a href="https://picnic-uz-2a3b.vercel.app/">
+                      <Image width={35} height={80} src="/Frame 35.svg" alt="" />
+                    </a>
                     <Image width={35} height={80} src="/Frame 36.svg" alt="" />
                   </div>
                 </div>
-                <Image
+                {/* <Image
                   width={500}
                   height={80}
                   className="middle"
                   src="/Frame 26.svg"
                   alt=""
-                />
+                /> */}
                 <Image
                   width={500}
                   height={80}
@@ -185,6 +189,41 @@ export default function Projects() {
                 />
               </div>
               <div className="project">
+                <div className="project-top">
+                  <Image
+                    width={80}
+                    height={80}
+                    className="project-top-child1"
+                    style={{ width: "100%" }}
+                    src="/react-pizza.jpg"
+                    alt=""
+                  />
+                  <div className=" cursor-pointer  project-top-child2">
+                    <a href="https://belissimoo-pizzaa.netlify.app/">
+                      <Image width={35} height={80} src="/Frame 34.svg" alt="" />
+                    </a>
+                    <a href="https://belissimoo-pizzaa.netlify.app/">
+                      <Image width={35} height={80} src="/Frame 35.svg" alt="" />
+                    </a>
+                    <Image width={35} height={80} src="/Frame 36.svg" alt="" />
+                  </div>
+                </div>
+                {/* <Image
+                  width={500}
+                  height={80}
+                  className="mt-3"
+                  src="/Frame 26.svg"
+                  alt=""
+                /> */}
+                <Image
+                  width={500}
+                  height={80}
+                  className="tags"
+                  src="/tags.svg"
+                  alt=""
+                />
+              </div>
+              {/* <div className="project">
                 <div className="project-top">
                   <Image
                     width={80}
@@ -214,38 +253,7 @@ export default function Projects() {
                   src="/tags.svg"
                   alt=""
                 />
-              </div>
-              <div className="project">
-                <div className="project-top">
-                  <Image
-                    width={80}
-                    height={80}
-                    className="project-top-child1"
-                    style={{ width: "100%" }}
-                    src="/image 1.svg"
-                    alt=""
-                  />
-                  <div className=" cursor-pointer  project-top-child2">
-                    <Image width={35} height={80} src="/Frame 34.svg" alt="" />
-                    <Image width={35} height={80} src="/Frame 35.svg" alt="" />
-                    <Image width={35} height={80} src="/Frame 36.svg" alt="" />
-                  </div>
-                </div>
-                <Image
-                  width={500}
-                  height={80}
-                  className="mt-3"
-                  src="/Frame 26.svg"
-                  alt=""
-                />
-                <Image
-                  width={500}
-                  height={80}
-                  className="tags"
-                  src="/tags.svg"
-                  alt=""
-                />
-              </div>
+              </div> */}
             </div>
             <div className="mx-auto">
               <a href="https://t.me/fariduser_03">
